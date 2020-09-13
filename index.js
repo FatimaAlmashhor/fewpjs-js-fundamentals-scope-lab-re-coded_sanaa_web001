@@ -4,11 +4,12 @@
 let animal = "dog"
 
 function myAnimal() {
-  return 'dog'
+  return animal ;
 }
 
 function yourAnimal() {
-  return 'cat'; 
+  let yourAni = 'cat' ;
+  return yourAni; 
 }
 
 function add2(n) {
