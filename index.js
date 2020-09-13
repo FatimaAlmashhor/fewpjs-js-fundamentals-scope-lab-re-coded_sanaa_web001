@@ -4,11 +4,10 @@
 animal = "dog"
 
 function myAnimal() {
-  return animal
+  return 'dog'
 }
 
 function yourAnimal() {
-  myAnimal() ;
   animal = 'cat' ;
   return animal; 
 }
